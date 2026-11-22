@@ -1,0 +1,30 @@
+## Apps<br>Shared code for course apps
+
+### Instructor
+
+[Kerry Back](https://kerryback.com)<br> (<a href="mailto:kerryback@gmail.com">kerryback@gmail.com)</a>
+
+### finance-functions.js
+
+Excel finance and statistics functions that HyperFormula 2.7 lacks: IRR, XIRR,
+VDB, INTERCEPT, FORECAST, PERCENTILE, QUARTILE, RANK, KURT, and the bond
+functions PRICE, YIELD, DURATION, MDURATION, ACCRINT, ACCRINTM, the COUP*
+functions, DISC, INTRATE, RECEIVED, PRICEDISC, PRICEMAT, YIELDDISC and YIELDMAT.
+It also makes a bare `TRUE` and `FALSE` work.
+
+Load it after Handsontable:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/hyperformula@2.7.1/dist/hyperformula.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/handsontable@14.6.1/dist/handsontable.full.min.js"></script>
+<script src="https://apps.kerryback.com/finance-functions.js"></script>
+```
+
+Then build the engine with the named expressions:
+
+```js
+const hf = HyperFormula.buildEmpty({ licenseKey: 'internal-use-in-handsontable' },
+                                   FinanceFunctions.namedExpressions);
+```
+
+The comment at the top of the file has the details.

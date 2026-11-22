@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - .nojekyll
+    - CNAME
+    - finance-functions.js
+
+website:
+  title: ""
+  search: false
+  navbar:
+    search: false
+    title: "Apps"
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: superhero
+    link-external-newwindow: true

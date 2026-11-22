@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Kerry Back (kerryback@gmail.com)\n\n\n\nExcel finance and statistics functions that HyperFormula 2.7 lacks: IRR, XIRR, VDB, INTERCEPT, FORECAST, PERCENTILE, QUARTILE, RANK, KURT, and the bond functions PRICE, YIELD, DURATION, MDURATION, ACCRINT, ACCRINTM, the COUP* functions, DISC, INTRATE, RECEIVED, PRICEDISC, PRICEMAT, YIELDDISC and YIELDMAT. It also makes a bare TRUE and FALSE work.\nLoad it after Handsontable:\n&lt;script src=\"https://cdn.jsdelivr.net/npm/hyperformula@2.7.1/dist/hyperformula.full.min.js\"&gt;&lt;/script&gt;\n&lt;script src=\"https://cdn.jsdelivr.net/npm/handsontable@14.6.1/dist/handsontable.full.min.js\"&gt;&lt;/script&gt;\n&lt;script src=\"https://apps.kerryback.com/finance-functions.js\"&gt;&lt;/script&gt;\nThen build the engine with the named expressions:\nconst hf = HyperFormula.buildEmpty({ licenseKey: 'internal-use-in-handsontable' },\n                                   FinanceFunctions.namedExpressions);\nThe comment at the top of the file has the details."
+  },
+  {
+    "objectID": "index.html#apps-shared-code-for-course-apps",
+    "href": "index.html#apps-shared-code-for-course-apps",
+    "title": "",
+    "section": "",
+    "text": "Kerry Back (kerryback@gmail.com)\n\n\n\nExcel finance and statistics functions that HyperFormula 2.7 lacks: IRR, XIRR, VDB, INTERCEPT, FORECAST, PERCENTILE, QUARTILE, RANK, KURT, and the bond functions PRICE, YIELD, DURATION, MDURATION, ACCRINT, ACCRINTM, the COUP* functions, DISC, INTRATE, RECEIVED, PRICEDISC, PRICEMAT, YIELDDISC and YIELDMAT. It also makes a bare TRUE and FALSE work.\nLoad it after Handsontable:\n&lt;script src=\"https://cdn.jsdelivr.net/npm/hyperformula@2.7.1/dist/hyperformula.full.min.js\"&gt;&lt;/script&gt;\n&lt;script src=\"https://cdn.jsdelivr.net/npm/handsontable@14.6.1/dist/handsontable.full.min.js\"&gt;&lt;/script&gt;\n&lt;script src=\"https://apps.kerryback.com/finance-functions.js\"&gt;&lt;/script&gt;\nThen build the engine with the named expressions:\nconst hf = HyperFormula.buildEmpty({ licenseKey: 'internal-use-in-handsontable' },\n                                   FinanceFunctions.namedExpressions);\nThe comment at the top of the file has the details."
+  }
+]
